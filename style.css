@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px 100px;
+}
+
+.menu{
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.header3{
+    border-bottom: 3px solid #000;
+}
+
+.header4{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(116, 160, 184), rgb(230, 112, 132),  rgb(9, 160, 210));
+    border: none;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 45%;
+}
+
+.head1 h1{
+    font-size: 60px;
+}
+
+.head2{
+    display: flex;
+    gap: 30px;
+}
+
+.head2 button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(116, 160, 184), rgb(230, 112, 132),  rgb(9, 160, 210));
+    border: none;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+/* Neck */
+
+.neck{
+    display: flex;
+    padding: 50px 100px;
+    background-color: #000;
+}
+
+/* Stomach */
+
+.stomach{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.stomach2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stomach2 img{
+    width: 100%;
+}
+
+/* Hand */
+
+.hand{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(116, 160, 184), rgb(230, 112, 132),  rgb(9, 160, 210));
+}
+
+.hand2 h1{
+    font-size: 55px;
+}
+
+.hand3 input{
+    padding: 15px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.hand3 button{
+    padding: 10px 25px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+/* Foot */
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 100px;
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot2{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.foot3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot4{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 1040px) {
+
+    /* Contact */
+
+    .contact{
+        padding: 30px 50px;
+    }
+
+    /* Menu */
+
+    .menu{
+        display: none;
+    }
+
+    /* Head */
+
+    .head1 h1{
+        font-size: 40px;
+    }
+    
+    .head3 img{
+        width: 80%;
+    }
+
+    /* Neck */
+
+    .neck{
+        padding: 30px 50px;
+    }
+
+    .neck img{
+        width: 100%;
+    }
+
+    /* Stomach */
+
+    .stomach{
+        padding: 30px 50px;
+    }
+
+    .stomach2{
+        flex-direction: column;
+    }
+
+    /* Hand */
+
+    .hand{
+        padding: 50px;
+    }
+
+    .hand2 h1{
+        font-size: 40px;
+    }
+
+    /* Foot */
+
+    .foot{
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 560px) {
+    
+    /* Contact */
+
+    .contact{
+        padding: 20px 40px;
+        gap: 20px;
+    }
+
+    /* Header */
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: none;
+    }
+
+    .header2{
+        flex-direction: column;
+    }
+
+    /* Menu */
+
+    .menu{
+        display: flex;
+        justify-content: end;
+    }
+
+    /* Head */
+
+    .head{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .head1{
+        width: 100%;
+    }
+
+    .head2{
+        flex-direction: column;
+    }
+
+    .head3 img{
+        width: 100%;
+    }
+
+    /* Neck */
+
+    .neck{
+        padding: 20px 40px;
+    }
+
+    /* Stomach */
+
+    .stomach{
+        padding: 20px 40px;
+    }
+
+    /* Hand */
+
+    .hand{
+        padding: 20px;
+    }
+
+    .hand2{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hand2 h1{
+        font-size: 25px;
+    }
+
+    .hand3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hand3 input{
+        padding: 10px 15px;
+    }
+    
+    .hand3 button{
+        padding: 10px 15px;
+    }
+
+    /* Foot */
+
+    .foot{
+        padding: 20px;
+    }
+}
